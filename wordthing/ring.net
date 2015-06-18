@@ -1,0 +1,14 @@
+Wire Weights
+   A   B   C   D   E   
+ A 01  02  03  00  00  
+ B 00  01  02  03  00  
+ C 00  00  01  02  03  
+ D 03  00  00  01  02  
+ E 02  03  00  00  01  
+Thresholds
+ Neur   StartPot   Thresh
+  A          05      05
+  B          05      05
+  C          05      05
+  D          05      05
+  E          05      05

@@ -1,0 +1,11 @@
+Wire Weights
+   A B C D E
+A  0 0 1 2 3
+B  3 0 0 1 2 
+C  2 3 0 0 1
+D  1 2 3 0 0
+E  0 1 2 3 0
+Thresholds
+A B C D E
+5 5 5 5 5
+
