@@ -19,7 +19,7 @@ u
 #include <stdlib.h>
 #include <time.h>
 
-#include <SDL.h>
+#include "/usr/include/SDL2/SDL.h"
 //#include <SDL_mixer.h>
 
 #define NUM_OBJECTS 100
@@ -34,7 +34,8 @@ static SDL_BlendMode blendMode = SDL_BLENDMODE_NONE;
 
 #define zoom  1
  
-#define MUS_PATH "/storage/sdcard0/DUMMY256.WAV" //Download/sox12dos/h.wav"
+//#define MUS_PATH "/storage/sdcard0/DUMMY256.WAV" //Download/sox12dos/h.wav"
+#define MUS_PATH "DUMMY256.WAV" //Download/sox12dos/h.wav"
 	static Uint32 wav_length; // length of our sample
 	static Uint8 *wav_buffer; // buffer containing our audio file
 	static SDL_AudioSpec wav_spec; // the specs of our piece of music

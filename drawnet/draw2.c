@@ -20,8 +20,10 @@ m objects on the screen as possible */
 //#include <stdio.h>
 #include <time.h>
 
-#include <SDL.h>
+//#include <SDL.h>
+#include "/usr/include/SDL2/SDL.h"
   
+
   #define game 1  
   /*
   //int game 0;
